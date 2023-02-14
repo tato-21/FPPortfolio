@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fernandos Portfolio</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+			integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="css/style.css" />
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="top-nav">
+			<nav
+				class="navbar navbar-expand-lg navbar-light bg-dark navbar-custom navbar-expand-lg-custom"
+			>
+				<a class="navbar-brand navbar-brand-custom" href="#">FP</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon navbar-toggler-icon-custom"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" href="#about-link"
+							>About <span class="sr-only">(current)</span></a
+						>
+						<a class="nav-link" href="#work-link">Work</a>
+						<a class="nav-link" href="#footer-link">Contact</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main class="hero-image container-1">
+			<div class="hero-text">
+				<h1 class="hero-header-animation hero-title" id="js-typing-animation">
+					I BUILD WEBSITES
+				</h1>
+				<p class="hero-intro-subtitle">Fernando Pacheco</p>
+			</div>
+		</main>
+
+		<section class="container container-2" id="work-link">
+			<h2 class="carousel-title">Projects</h2>
+			<div id="my-carousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#image-1" data-slide-to="0" class="active"></li>
+					<li data-target="#image-2" data-slide-to="1"></li>
+					<li data-target="#image-3" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							id="image-1"
+							src="assets/UberResponsiveSiteCP.png"
+							class="d-block w-100"
+							alt="Uber Responsive Site Code Pen"
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>First slide label</h5>
+							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							id="image-2"
+							src="assets/GASiteCP.png"
+							class="d-block w-100"
+							alt="GA Site Code Pen"
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Second slide label</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							id="image-3"
+							src="assets/StartupMatchmakerCP.png"
+							class="d-block w-100"
+							alt="Startup Matchamker Code Pen"
+						/>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Third slide label</h5>
+							<p>
+								Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+							</p>
+						</div>
+					</div>
+				</div>
+				<a
+					class="carousel-control-prev"
+					href="#my-carousel"
+					role="button"
+					data-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a
+					class="carousel-control-next"
+					href="#my-carousel"
+					role="button"
+					data-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</section>
+
+		<section class="container-3" id="about-link">
+			<div class="fp-image-container">
+				<img
+					class="fp-image"
+					src="assets/mexican-flag.png"
+					alt="Fernando Himself"
+				/>
+			</div>
+
+			<div class="fp-text">
+				<h2>Hello!</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+					rerum illo tempora voluptates nemo ipsum nisi atque animi asperiores
+					perspiciatis velit est consequuntur voluptatibus quam, fugiat amet.
+					Eveniet libero corporis vero ducimus non dolores labore nihil
+					distinctio suscipit ea expedita voluptatibus unde cupiditate vel
+					assumenda nisi provident alias
+				</p>
+			</div>
+		</section>
+
+		<footer id="footer-link">
+			<div class="footer-left">
+				<div class="footer-icon">
+					<img
+						src="https://s2.svgbox.net/social.svg?ic=linkedin&color=00FFEF"
+						width="32"
+						height="32"
+					/>
+				</div>
+				<div class="icon-title">
+					<p>
+						<a href="https://www.linkedin.com/in/fernando-pacheco-18a24a1a4"
+							>Linkedin</a
+						>
+					</p>
+				</div>
+			</div>
+
+			<div class="footer-right">
+				<div class="footer-icon">
+					<img
+						src="https://s2.svgbox.net/files.svg?ic=pdf2&color=000000"
+						width="32"
+						height="32"
+					/>
+				</div>
+				<div class="icon-title">
+					<p><a href="assets/Resume.pdf">Resume</a></p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/script.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
